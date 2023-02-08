@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Specifications", "Specifica
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChuckNorris.Web.Tests", "ChuckNorris.Web.Tests\ChuckNorris.Web.Tests.csproj", "{93A9D186-FF20-4956-8E0A-F2A47A35AE07}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChuckNorris.RestApi.Tests", "ChuckNorris.RestApi.Tests\ChuckNorris.RestApi.Tests.csproj", "{9CB1F6F9-8670-4183-87C3-D290C1D21CD6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{93A9D186-FF20-4956-8E0A-F2A47A35AE07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93A9D186-FF20-4956-8E0A-F2A47A35AE07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93A9D186-FF20-4956-8E0A-F2A47A35AE07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CB1F6F9-8670-4183-87C3-D290C1D21CD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CB1F6F9-8670-4183-87C3-D290C1D21CD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CB1F6F9-8670-4183-87C3-D290C1D21CD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CB1F6F9-8670-4183-87C3-D290C1D21CD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
