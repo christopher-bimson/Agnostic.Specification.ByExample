@@ -43,15 +43,15 @@ namespace ChuckNorris.Web.Tests
             }
         }
 
-        [When(@"the Boomer asks for Chuck Norris facts about Jason Statham")]
-        public void WhenTheBoomerAsksForChuckNorrisFactsAboutJasonStatham()
+        [When(@"the Boomer asks for Chuck Norris facts that mention Jason Statham")]
+        public void WhenTheBoomerAsksForChuckNorrisFactsThatMentionJasonStatham()
         {
             var driver = context.Get<IWebDriver>();
             driver.Navigate().GoToUrl("https://api.chucknorris.io/jokes/search?query=statham");
         }
 
-        [Then(@"there should be no facts")]
-        public void ThenThereShouldBeNoFacts()
+        [Then(@"there will be no facts")]
+        public void ThenThereWillBeNoFacts()
         {
             var driver = context.Get<IWebDriver>();
             try
@@ -63,5 +63,6 @@ namespace ChuckNorris.Web.Tests
                 driver.Quit();
             }
         }
+
     }
 }

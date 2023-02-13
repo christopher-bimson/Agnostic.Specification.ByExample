@@ -14,7 +14,8 @@ This repo contains terrible examples of:
 * Managing the Selenium driver life cycle.
 * Clean code.
 
-I did it in an hour while watching [Fallout New Vegas Multiplayer.](https://www.youtube.com/watch?v=yUVCCaeVNzY&list=PL3itm4Cj7SBBuRdCKOOdUGyyi4fgdgVkS)
+I did it in an hour while watching [Fallout New Vegas Multiplayer.](https://www.youtubetrimmer.com/view/?v=DyY0hbilfC4&start=1399&end=1420&loop=0) 
+The feels :sob:
 
 It's only for demonstrating the _concept_ of writing specifications in your ubqiquitous language
 rather than writing test scripts coupled to a particular technology (e.g. open browser, navigate to page, click button)

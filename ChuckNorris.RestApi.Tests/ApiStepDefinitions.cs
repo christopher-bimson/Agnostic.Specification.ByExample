@@ -37,16 +37,16 @@ namespace ChuckNorris.RestApi.Tests
             Assert.Contains(term, response.value);
         }
 
-        [When(@"the Boomer asks for Chuck Norris facts about Jason Statham")]
-        public async Task WhenTheBoomerAsksForChuckNorrisFactsAboutJasonStatham()
+        [When(@"the Boomer asks for Chuck Norris facts that mention Jason Statham")]
+        public async Task WhenTheBoomerAsksForChuckNorrisFactsThatMentionJasonStatham()
         {
             var client = context.Get<RestClient>();
             var response = await client.GetJsonAsync<JokeResourceCollection>("search?query=statham");
             context.Set(response);
         }
 
-        [Then(@"there should be no facts")]
-        public void ThenThereShouldBeNoFacts()
+        [Then(@"there will be no facts")]
+        public void ThenThereWillBeNoFacts()
         {
             var response = context.Get<JokeResourceCollection>();
             Assert.Equal(0, response.total);

@@ -12,5 +12,5 @@ Scenario: Random Chuck Norris Facts
 
 Scenario: No-one cares about Jason Statham
 	Given a Boomer
-	When the Boomer asks for Chuck Norris facts about Jason Statham
-	Then there should be no facts
+	When the Boomer asks for Chuck Norris facts that mention Jason Statham
+	Then there will be no facts
